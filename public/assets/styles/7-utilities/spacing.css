@@ -1,0 +1,38 @@
+.p-3 {
+  padding: 0.3rem;
+}
+
+.p-5 {
+  padding: 1rem;
+}
+
+.py-10 {
+  padding: 2rem 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.mr-10 {
+  margin-right: 10rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.ml-10 {
+  margin-left: 10rem;
+}
+
+.gap-2 {
+  gap: 0.25rem;
+}
+.gap-3 {
+  gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1rem;
+}

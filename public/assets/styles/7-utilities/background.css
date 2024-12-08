@@ -1,0 +1,15 @@
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-red-200 {
+  background-color: var(--red-200);
+}
+
+.bg-black\/20 {
+  background-color: rgba(9, 13, 20, 0.4) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}

@@ -1,0 +1,38 @@
+.carousel-item img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.nav-item .nav-link {
+  color: var(--bs-light);
+}
+
+.feat-title {
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: left !important;
+  }
+}
+
+.carousel-item img {
+  aspect-ratio: 16/9;
+  max-width: 75%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.table-img {
+  --size: 100px;
+  width: var(--size);
+  height: var(--size);
+  object-fit: contain;
+  aspect-ratio: 1;
+}
+
+.form-img{
+  --size: 200px;
+  width: var(--size);
+  height: var(--size);
+  object-fit: contain;
+  aspect-ratio: 1;
+}

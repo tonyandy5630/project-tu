@@ -1,0 +1,39 @@
+.text-start {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.md\:text-center {
+  @media screen and (min-width: 768px) {
+    text-align: center !important;
+  }
+}
+
+.lg\:text-start {
+  @media screen and (min-width: 1440px) {
+    text-align: start !important;
+  }
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.font-medium {
+  font-weight: var(--font-medium);
+}
+
+.text-small {
+  font-size: var(--text-sm);
+}
+
+.text-white {
+  color: white;
+}

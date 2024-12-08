@@ -1,0 +1,19 @@
+:root {
+  /* width */
+  --sm: 5rem;
+  --md: 10rem;
+  --lg: 15rem;
+  --xl: 30rem;
+  --xxl: 50rem;
+
+  /* height */
+  --h-sm: 3rem;
+
+  --screen-md: 1024px;
+  --screen-lg: 1440px;
+
+  --container-md: 1248px;
+
+  --avatar-md: 50px;
+  --avatar-lg: 100px;
+}

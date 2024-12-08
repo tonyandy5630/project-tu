@@ -1,0 +1,47 @@
+.grid__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: var(--gap-xl);
+}
+
+.grid__item {
+  padding: var(--p-md);
+  grid-column: var(--span-1);
+}
+
+.box {
+  padding: var(--p-lg);
+  width: 100%;
+  background-color: white;
+  border-radius: var(--rounded-md);
+}
+
+.container--2\/3 {
+  width: 75%;
+}
+
+.container--1\/2 {
+  width: 50%;
+}
+
+.rounded {
+  border-radius: var(--rounded-full);
+}
+
+.rounded--md {
+  --size: 50px;
+  width: var(--size);
+  height: var(--size);
+}
+
+.carousel-img__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body .body-group {
+  width: fit-content;
+}
