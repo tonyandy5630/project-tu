@@ -46,6 +46,7 @@
             ?>
         </div>
         <?php
+        print_r($_GET);
         $isFiltering = isset($_GET['category']);
         if (!$isFiltering) {
         ?>

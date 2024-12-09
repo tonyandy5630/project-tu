@@ -8,6 +8,6 @@ if (isset($id)) {
     $members = $admin->get_all(1);
     $title = "Member Page";
     if ($success) {
-        loadView("member/index", $title, ADMIN, ["members" => $members]);
+        loadView("member/index", $title, ADMIN, ["members" => $members, "pageCount" => 0]);
     }
 }
